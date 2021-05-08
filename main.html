@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="ko-KR" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My portfolio</title>
+
+    <!-- web font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+
+
+    <!-- CSS style -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+      .name{
+        text-align: center;
+        font-family: 'Black Han Sans', sans-serif;
+        color: #89ADF6;
+      }
+      .intro{
+        text-align: center;
+        font-family: 'Gamja Flower', cursive;
+        font-size: 25px;
+      }
+      .mypicture{
+        display: block;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 5px 5px 5px #ECEBEB;
+      }
+      #linkimg{
+        text-align : center;
+      }
+      #linkimg img{
+          width: 70px;
+          height: 70px;
+          padding:  50px;
+          padding-top: 100px;
+          object-fit: contain;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+    <div id="grid">
+      <div class="mark"> <a href="main.html">SJPARK</a></div>
+        <div class="nav">
+          <a href="main.html" >main</a>
+          <a href="skill.html" >skill</a>
+          <a href="project.html" >project</a>
+        </div>
+    </div>
+
+    <img src="my.jpg" class="mypicture">
+    <h2 class="name">SUNGJUN PARK</h2>
+    <div class="intro">IT프로그래밍을 공부로 목표하고 있는 박성준입니다. 잘 부탁드립니다.</div>
+
+    <div id="linkimg" >
+      <a href="https://github.com/SJPARK512" target="_blank"><img src="git.jpg" class="git" alt="git"></a>
+      <a href="https://velog.io/@tmvpdlaos" target="_blank"><img src="velog.png"  class="velog" alt="velog"></a>
+      <a href="mailto:tmvpdlaos@gmail.com?"><img src="email.png" class="email" alt="email"></a>
+    </div>
+  </body>
+
+  <footer>
+    <div class="btm">
+    <p>Copyright @ 2021 SJPARK.co.,Ltd. All rights reserved</p>
+    <address>
+      Contact SJPARK for more information TEL: 010-8843-2793
+    </address>
+    </div>
+  </footer>
+</html>
